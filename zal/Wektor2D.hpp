@@ -1,14 +1,13 @@
 class Wektor2D
 {
-   {
 public:
     double x;
     double y;
 
     void   setX(double a) { x = a; }
-    double getX() { return x; }
+    double getX(double c) { return c * x; }
     void   setY(double b) { y = b; }
-    double getY() { return y; }
+    double getY(double d) { return d * y; }
 
     Wektor2D()
     {
