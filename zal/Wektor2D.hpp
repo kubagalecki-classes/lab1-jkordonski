@@ -5,9 +5,9 @@ public:
     double y;
 
     void   setX(double a) { x = a; }
-    double getX(double c) { return c * x; }
+    double getX() { return x; }
     void   setY(double b) { y = b; }
-    double getY(double d) { return d * y; }
+    double getY() { return y; }
 
     Wektor2D()
     {
